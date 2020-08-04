@@ -53,6 +53,6 @@ public class Serv extends HttpServlet {
         System.out.println("deget :"+age);
         System.out.println("deget :"+age);
             
-        out.println("Post통신 : 안녕 내 이름은 "+name+"이고 나이는 "+age+"란다"); //response
+        out.println("Post통신 : 안녕 내 이름은 "+name+"이고 나이는 "+age+"란다"); //response asdf
     }
 }
