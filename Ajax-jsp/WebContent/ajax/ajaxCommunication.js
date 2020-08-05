@@ -69,11 +69,9 @@ function AjaxConPost() {
           "\n" +
           "error:" +
           error
-<<<<<<< HEAD
+
       ); //에러 상태에 대한 세부사항 출력12345 master
-=======
-      ); //에러 상태에 대한 세부사항 출력123 hotfix
->>>>>>> refs/heads/hotfix
+
       alert(e);
     },
   });
