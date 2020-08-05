@@ -69,7 +69,7 @@ function AjaxConPost() {
           "\n" +
           "error:" +
           error
-      ); //에러 상태에 대한 세부사항 출력
+      ); //에러 상태에 대한 세부사항 출력123
       alert(e);
     },
   });
