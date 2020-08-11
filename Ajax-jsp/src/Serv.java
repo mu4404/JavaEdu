@@ -53,14 +53,9 @@ public class Serv extends HttpServlet {
         String name = request.getParameter("name");
         String age = request.getParameter("age");
 
-        System.out.println("doget :" + name);
-        System.out.println("deget :" + age);
-        System.out.println("deget :" + age);
-        System.out.println("deget :" + age);
-        System.out.println("deget :" + age);
-        System.out.println("deget :" + age);
-        System.out.println("deget :" + age);
-        System.out.println("deget :" + age);
+        System.out.println("doget :" + name); // 입력받은 이름 표시
+        System.out.println("deget :" + age);  // 입력받은 나이 표시
+        
 
         out.println("Post통신 : 안녕 내 이름은 " + name + "이고 나이는 " + age + "란다"); // response 444
     }
