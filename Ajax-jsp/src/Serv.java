@@ -55,6 +55,7 @@ public class Serv extends HttpServlet {
 
         System.out.println("doget :" + name); // 입력받은 이름 표시
         System.out.println("deget :" + age);  // 입력받은 나이 표시
+        System.out.println("deget :" + age);
         
 
         out.println("Post통신 : 안녕 내 이름은 " + name + "이고 나이는 " + age + "란다"); // response 444
